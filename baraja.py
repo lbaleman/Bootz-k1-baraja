@@ -12,6 +12,7 @@ def baraja():
 def elige_carta(i,longitud):
     return random.randint(0, longitud-1)
 
+
 def mezclar(b):
     for i in range(len(b)):
         azar = elige_carta(i, len(b))
